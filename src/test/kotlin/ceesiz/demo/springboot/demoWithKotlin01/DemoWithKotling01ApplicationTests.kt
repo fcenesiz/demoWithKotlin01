@@ -8,6 +8,7 @@ class DemoWithKotling01ApplicationTests {
 
 	@Test
 	fun contextLoads() {
+		println("Passed!")
 	}
 
 }
