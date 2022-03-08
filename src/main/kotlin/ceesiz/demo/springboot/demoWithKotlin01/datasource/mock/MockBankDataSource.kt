@@ -4,7 +4,7 @@ import ceesiz.demo.springboot.demoWithKotlin01.datasource.BankDataSource
 import ceesiz.demo.springboot.demoWithKotlin01.model.Bank
 import org.springframework.stereotype.Repository
 
-@Repository // marks this class as a SpringBoot bean; responsible with retrieving data, storing data, accessing entities
+@Repository("mock") // marks this class as a SpringBoot bean; responsible with retrieving data, storing data, accessing entities
 class MockBankDataSource : BankDataSource {
 
     val banks = mutableListOf(
